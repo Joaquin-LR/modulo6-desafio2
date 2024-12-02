@@ -1,4 +1,4 @@
-<h1>Desafío 2: Introducción a Express</h1>
+<h1>Desafío 2: Introducción a Express Js</h1>
 <p>Módulo 6: Backend con Node y Express (68) > Desafío evaluado - Mi repertorio</p>
 
 <h2>Instrucciones para el usuario</h2>
