@@ -20,7 +20,8 @@
 </ol>
 
 <h2>Notas</h2>
-Actualmente ya están registradas las siguientes canciones en el sistema:
+<p>Utilicé el puerto 4000 en vez del 3000.</p>
+<p><br>Actualmente ya están registradas las siguientes canciones en el sistema:</p>
 <ol>
  <li><p>Canción: A Dios le Pido, Artista: Juanes, Tono: Dm</p></li>
  <li><p>Canción: Música Ligera, Artista: Soda Estéreo, Tono: Bm</p></li>
