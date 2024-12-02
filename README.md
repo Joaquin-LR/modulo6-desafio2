@@ -5,10 +5,9 @@
 
 <ol>
   <li><p>Descargar el archivo presionando en el botón verde que dice Code, y luego en Download ZIP</p></li>
-  <li><p>Descomprimir desafio2.zip en un directorio deseado</p></p></li>
-  <li><p>Abrir la carpeta desafio2 con Visual Studio Code, o en la terminal, escribiendo "cd <ruta-del-directorio>/desafio2"</p></p></li>
-  <li><p>Instalar las dependencias con "npm install"</p></p></li>
-  <li><p>Ejecutar el servidor con "node server/index.js"<br>El servidor se iniciará en http://localhost:4000</p></p></li>
+  <li><p>Descomprimir modulo6-desafio2-main.zip en un directorio deseado</p></p></li>
+  <li><p>Abrir la carpeta modulo6-desafio2-main con Visual Studio Code, o en la terminal, escribiendo "cd <ruta-del-directorio>/modulo6-desafio2-main"</p></p></li>
+  <li><p>Ejecutar el servidor con "node server/index.js"<br>El servidor se iniciará en http://localhost:4000<br> Alternativa: Si disponemos de la extensión Live Server podemos ocuparla en index.html</p></p></li>
 </ol>
 
 <h2>Cómo usar la aplicación</h2>
