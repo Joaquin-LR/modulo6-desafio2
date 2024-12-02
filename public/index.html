@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Repertorio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:,">
+</head>
+
+<body>
+  <div id="AgregarCancion">
+    <h2>&#119070; Mi repertorio &#119070;</h2>
+
+    <div class="container">
+      <div class="form-group">
+        <label for="cancion">Canción:</label>
+        <input type="text" id="cancion" placeholder="Nombre de la canción" />
+      </div>
+      <div class="form-group">
+        <label for="artista">Artista:</label>
+        <input type="text" id="artista" placeholder="Nombre del artista" />
+      </div>
+      <div class="form-group">
+        <label for="tono">Tono:</label>
+        <input type="text" id="tono" placeholder="Tono de la canción" />
+      </div>
+      <button onclick="nuevaCancion()" id="agregar">Agregar</button>
+      <button id="editar" style="display: none;">Editar</button>
+    </div>
+  </div>
+
+  <div id="ListaCanciones">
+    <hr />
+    <h2>Tabla de canciones &#127908;</h2>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Canción</th>
+            <th>Artista</th>
+            <th>Tono</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="cuerpo"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

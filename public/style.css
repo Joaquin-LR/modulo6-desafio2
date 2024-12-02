@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+  background: #1a237e; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#agregar {
+  background-color: #4caf50; 
+  color: white;
+}
+
+button#editar {
+  background-color: #2196f3; 
+  color: white;
+}
+
+button.btn-danger {
+  background-color: #f44336;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #3949ab; 
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #283593; 
+}
+
+table td {
+  background-color: #3949ab; 
+}
+
+table th, table td {
+  color: #ffffff; 
+  border: 1px solid #1a237e;
+}
